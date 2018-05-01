@@ -26,4 +26,11 @@
 }
 
 
+- (IBAction)DisableButton:(id)sender {
+    self.ButtonOutlet.enabled = NO;
+}
+
+- (IBAction)EnableButton:(id)sender {
+    self.ButtonOutlet.enabled = YES;
+}
 @end
